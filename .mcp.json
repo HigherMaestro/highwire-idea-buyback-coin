@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "highwire": {
+      "command": "npx",
+      "args": ["highwire"],
+      "env": {
+        "HIGHWIRE_HOME": "${HOME}/.highwire/buyback-coin",
+        "HIGHWIRE_KEYPAIR_PATH": "${HOME}/.highwire/buyback-coin/wallet.json"
+      }
+    }
+  }
+}
